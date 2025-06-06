@@ -1,0 +1,14 @@
+.git
+.gitignore
+.env             # ¡Importante no copiar tus variables de entorno sensibles!
+.DS_Store
+.vscode/         # Archivos de configuración de VS Code
+node_modules/    # Dependencias de Node.js
+vendor/          # Dependencias de Composer (Laravel)
+npm-debug.log
+yarn-error.log
+# logs/          # Si tu API genera logs que no quieres en la imagen final
+*.log
+.pytest_cache/   # Cachés de Python
+__pycache__/
+*.pyc
